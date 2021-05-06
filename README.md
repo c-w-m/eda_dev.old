@@ -14,11 +14,12 @@ $ git clone --recurse-submodules git clone git@github.com:c-w-m/eda_dev.git     
 
 
 ## Submodules
-Visualization consists of multiple submodules
+The following open-source projects were cloned and added to this project to allow experimental changes to be saved without formal pull request review in the source repository.
 
 ```
 cd src
 git submodule add https://github.com/c-w-m/matplotlib.git
+git submodule add https://githuhttps://github.com/c-w-m/pandas.git
 git submodule add https://github.com/c-w-m/pyGeometry.git
 ```
 
@@ -26,5 +27,6 @@ git submodule add https://github.com/c-w-m/pyGeometry.git
 ## Contents
 | Directory      | Description            |
 |----------------|------------------------|
-| src/matplotlib | matlab like plotting   |
-| src/pyGeometry | geometry visualization |
+| src/matplotlib | plotting               |
+| src/pandas     | data analysis          |
+| src/pyGeometry | geometry               |
