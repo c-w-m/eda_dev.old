@@ -2,3 +2,6 @@
 [submodule "src/pyGeometry"]
 	path = src/pyGeometry
 	url = https://github.com/c-w-m/pyGeometry.git
+[submodule "src/matplotlib"]
+	path = src/matplotlib
+	url = https://github.com/c-w-m/matplotlib.git

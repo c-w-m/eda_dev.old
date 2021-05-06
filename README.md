@@ -19,11 +19,12 @@ Visualization consists of multiple submodules
 ```
 cd src
 git submodule add https://github.com/c-w-m/matplotlib.git
-git submodule add https://github.com/c-w-m/pandas.git
 git submodule add https://github.com/c-w-m/pyGeometry.git
 ```
 
 
 ## Contents
-| Directory      | Description           |
-|----------------|-----------------------|
+| Directory      | Description            |
+|----------------|------------------------|
+| src/matplotlib | matlab like plotting   |
+| src/pyGeometry | geometry visualization |
