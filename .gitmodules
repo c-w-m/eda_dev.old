@@ -8,3 +8,6 @@
 [submodule "src/pyGeometry"]
 	path = src/pyGeometry
 	url = https://github.com/c-w-m/pyGeometry.git
+[submodule "src/Spirograph"]
+	path = src/Spirograph
+	url = https://github.com/c-w-m/Spirograph.git

@@ -11,22 +11,21 @@ $ git clone --recurse-submodules git clone https://github.com/c-w-m/eda_dev.git 
 $ git clone --recurse-submodules git clone git@github.com:c-w-m/eda_dev.git      ## ssh
 ```
 
-
-
 ## Submodules
-The following open-source projects were cloned and added to this project to allow experimental changes to be saved without formal pull request review in the source repository.
+The following open-source projects were forked to allow experimental changes without formal pull request review in the source repository.
 
 ```
 cd src
 git submodule add https://github.com/c-w-m/matplotlib.git
 git submodule add https://githuhttps://github.com/c-w-m/pandas.git
 git submodule add https://github.com/c-w-m/pyGeometry.git
+git submodule add https://github.com/c-w-m/Spirograph.git
 ```
 
-
-## Contents
+## Directory Layout
 | Directory      | Description            |
 |----------------|------------------------|
 | src/matplotlib | plotting               |
 | src/pandas     | data analysis          |
 | src/pyGeometry | geometry               |
+| src/Spirograph | Turtle drawing         |
