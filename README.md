@@ -10,8 +10,8 @@ You can create an environment from scratch, use the `eda_dev39.yml`, or use an e
 
 ### Clone - recursive to get submodules
 ```shell
-$ git clone --recurse-submodules git clone https://github.com/c-w-m/eda_dev.git  ## https or
-$ git clone --recurse-submodules git clone git@github.com:c-w-m/eda_dev.git      ## ssh
+$ git clone --recurse-submodules https://github.com/c-w-m/eda_dev.git  ## https or
+$ git clone --recurse-submodules git@github.com:c-w-m/eda_dev.git      ## ssh
 ```
 
 ## Directory Layout
