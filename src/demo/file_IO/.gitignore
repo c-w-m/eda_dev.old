@@ -1,0 +1,5 @@
+# Jupyter lab
+.ipynb_checkpoints/
+
+# UserGuide artifact files
+data/file*.*

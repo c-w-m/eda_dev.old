@@ -2,6 +2,4 @@
 .ipynb_checkpoints/
 
 # UserGuide artifact files
-foo.csv
-foo.hr
-foo.xlsx
+data/file*.*

@@ -1,0 +1,22 @@
+,MyInt64
+0,5
+1,0
+2,Nope
+3,
+4,-1.#IND
+5,1.#QNAN
+6,1.#IND
+7,-1.#QNAN
+8,#N/A N/A
+9,#N/A
+10,N/A
+11,n/a
+12,NA
+13,<NA>
+14,#NA
+15,NULL
+16,null
+17,NaN
+18,-NaN
+19,nan
+20,-nan
