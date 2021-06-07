@@ -2,4 +2,6 @@
 .ipynb_checkpoints/
 
 # UserGuide artifact files
-data/file*.*
+data/
+data/test/
+bm/

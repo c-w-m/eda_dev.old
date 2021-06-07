@@ -35,6 +35,7 @@ dependencies:
   - cffi=1.14.5=py39h0878f49_0
   - chardet=4.0.0=py39hcbf5309_1
   - colorama=0.4.4=pyhd3eb1b0_0
+  - cramjam=2.3.1=py39h94cc256_1
   - cryptography=3.4.7=py39hd8d06c1_0
   - cycler=0.10.0=py39haa95532_0
   - cython=0.29.23=py39hd77b12b_0
@@ -44,10 +45,13 @@ dependencies:
   - distlib=0.3.1=pyhd3eb1b0_0
   - entrypoints=0.3=pyhd8ed1ab_1003
   - et_xmlfile=1.0.1=py_1001
+  - fastparquet=0.6.3=py39h5d4886f_0
   - filelock=3.0.12=pyhd3eb1b0_1
   - freetype=2.10.4=hd328e21_0
+  - fsspec=2021.5.0=pyhd8ed1ab_0
   - gflags=2.2.2=ha925a31_1004
   - glog=0.5.0=h4797de2_0
+  - greenlet=1.1.0=py39h415ef7b_0
   - grpc-cpp=1.37.1=h586195c_2
   - hdf5=1.10.6=nompi_h5268f04_1114
   - html5lib=1.1=py_0
@@ -79,6 +83,7 @@ dependencies:
   - libcurl=7.77.0=h789b8ee_0
   - libiconv=1.15=vc14h29686d3_5
   - libpng=1.6.37=h2a8f88b_0
+  - libpq=13.3=hfcc5ef8_0
   - libprotobuf=3.16.0=h7755175_0
   - libsodium=1.0.18=h8d14728_1
   - libssh2=1.9.0=h680486a_6
@@ -134,6 +139,7 @@ dependencies:
   - pluggy=0.13.1=py39haa95532_0
   - prometheus_client=0.10.1=pyhd8ed1ab_0
   - prompt-toolkit=3.0.18=pyha770c72_0
+  - psycopg2=2.8.6=py39h0878f49_3
   - py=1.10.0=pyhd3eb1b0_0
   - pyarrow=4.0.0=py39hf9247be_3_cpu
   - pycparser=2.20=pyh9f0ad1d_2
@@ -141,9 +147,11 @@ dependencies:
   - pyexcel-io=0.6.4=pyhd8ed1ab_0
   - pyexcel-ods3=0.5.3=py_1
   - pygments=2.8.1=pyhd8ed1ab_0
+  - pymysql=1.0.2=pyhd8ed1ab_0
   - pyopenssl=20.0.1=pyhd8ed1ab_0
   - pyparsing=2.4.7=pyhd3eb1b0_0
   - pyqt=5.9.2=py39hd77b12b_6
+  - pyreadstat=1.1.2=py39h94cc256_0
   - pyrsistent=0.17.3=py39hb82d6ee_2
   - pysocks=1.7.1=py39hcbf5309_3
   - pytables=3.6.1=py39h4b3cac5_3
@@ -167,11 +175,13 @@ dependencies:
   - snappy=1.1.8=ha925a31_3
   - sniffio=1.2.0=py39hcbf5309_1
   - soupsieve=2.0.1=py_1
+  - sqlalchemy=1.4.17=py39hb82d6ee_0
   - sqlite=3.35.4=h2bbff1b_0
   - statsmodels=0.12.2=py39h2bbff1b_0
   - tbb=2020.3=h74a9793_0
   - terminado=0.9.4=py39hcbf5309_0
   - testpath=0.4.4=py_0
+  - thrift=0.13.0=py39h415ef7b_2
   - tk=8.6.10=he774522_0
   - toml=0.10.2=pyhd3eb1b0_0
   - tomlkit=0.7.0=py39hcbf5309_3
