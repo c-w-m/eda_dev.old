@@ -66,9 +66,10 @@ These are in `src/demo/`
 | Directory      | URL                          |
 |----------------|------------------------------|
 | altair-examples | https://github.com/madewitt/altair-examples.git |
-| Data-Visualization-of-Pokemon-Data-with-Python-and-Seaborn_side_project | 
+| Data-Visualization-of-Pokemon-Data-with-Python-and-Seaborn_side_project | https://github.com/micgonzalez/Data-Visualization-of-Pokemon-Data-with-Python-and-Seaborn_side_project |
 | data_viz_python_tutorial | https://github.com/micgonzalez/Data-Visualization-of-Pokemon-Data-with-Python-and-Seaborn_side_project.git |
 | EDA-with-Seaborn | https://github.com/Devesh1997Yadav/EDA-with-Seaborn.git |
+| file_IO | |
 | handy_data_viz_functions | https://github.com/manukalia/handy_data_viz_functions.git |
 | matplotlib-challenge | https://github.com/malvika/matplotlib-challenge.git |
 | python-data-exploration | https://github.com/MartinSeeler/python-data-exploration.git |
@@ -84,8 +85,8 @@ These are in `src/mc/`
 |----------------|------------------------------|
 | Black-Scholes-Option-Pricing-with-Monte-Carlo- | https://github.com/aldodec/Black-Scholes-Option-Pricing-with-Monte-Carlo-.git |
 | MJHMC | https://github.com/rueberger/MJHMC.git |
+| Monte_Carlo | https://nbviewer.jupyter.org/url/alphabench.com/data/Monte_Carlo.ipynb |
 | MonteCarloMethodsInFinance | https://github.com/olafSmits/MonteCarloMethodsInFinance.git |
-| Monte_Carlo.ipynb.ipynb | https://nbviewer.jupyter.org/url/alphabench.com/data/Monte_Carlo.ipynb |
 | Plot-and-Monte-Carlo-Simulation | https://github.com/creixotradeos/Plot-and-Monte-Carlo-Simulation.git |
 | PyPlan | https://github.com/shankarj/PyPlan.git |
 | VaR-Monte-Carlo-Evaluation | https://github.com/aldodec/VaR-Monte-Carlo-Evaluation.git |
@@ -99,7 +100,7 @@ $ conda activate eda_dev39
 ```
 
 ## Anaconda Environment
-### Create and Load Conda Environment
+### Create and Load Conda Environment From `yml` File
 ```shell
 (base) $ conda env create -f eda_dev39.yml
 (base) $ conda activate eda_dev39 
@@ -109,30 +110,25 @@ $ conda activate eda_dev39
 
 ### Install New Conda Environment Packages
 ```shell
-(base) $ conda activate eda_dev39 
 (eda_dev39) $ conda install <package name>
 ```
 
 ### Update Conda Environment Packages
 ```shell
-(base) $ conda activate eda_dev39 
 (eda_dev39) $ conda update <package name>
 ```
 
 ### Export Conda Environment
 ```shell
-(base) $ conda activate eda_dev39 
 (eda_dev39) $ conda env export > eda_dev39.yml
 ```
 
 ### Get Conda Environment
 ```shell
-(base) $ conda activate eda_dev39 
 (eda_dev39) $ conda info -e
 ```
 
 ### Remove Conda Environment
 ```shell
-(base) $ conda activate eda_dev39 
 (eda_dev39) $ conda remove -n <env_name> -all
 ```
